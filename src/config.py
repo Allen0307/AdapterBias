@@ -65,13 +65,6 @@ def get_args():
     parser.add_argument('--sts_lr', default=0.0001)
     parser.add_argument('--sts_len', default=512, type=int)
     parser.add_argument('--sts_batch', default=8, type=int)
-
-    #Squard
-    parser.add_argument('--squard_epoch', default=2, type=int)
-    parser.add_argument('--squard_lr', default=0.00003, type = float)
-    parser.add_argument('--squard_max_len', default=384, type=int)
-    parser.add_argument('--squard_doc_stride', default=128, type=int)
-    parser.add_argument('--squard_batch', default=3, type=int)
     
     args = parser.parse_args()
     
