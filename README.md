@@ -1,6 +1,8 @@
 
 # AdapterBias: Parameter-efficient Token-dependent Representation Shift for Adapters in NLP Tasks
 
+![AdapterBias](phd.jpg)
+
 [![Version](https://img.shields.io/badge/Version-v0.1.0-blue?color=FF8000?color=009922)](https://img.shields.io/badge/Version-v0.1.0-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
 [![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-pink?color=FF33CC)](https://github.com/huggingface/transformers)
@@ -14,7 +16,7 @@ Authors:
 [Chin-Lun Fu*](https://www.linkedin.com/in/chin-lun-fu-201612219/), 
 [Zih-Ching Chen*](https://www.linkedin.com/in/zih-ching-chen-7158111b0/),
 [Yun-Ru Lee](https://www.facebook.com/profile.php?id=100002026928166),
-[Hong-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php),
+[Hong-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php)
 
 ## Overview
 ![AdapterBias](Adapter.png)
@@ -56,4 +58,4 @@ python exp.py \
 
 After you run the training, you can automatically get the prediction file in <output_path>/result/. Also, the saved model is in <output_path>/model/.
 
-After you run all nine tasks of GLUE, you can sumbit the prediction files to the [website](https://gluebenchmark.com/).
+Running all nine tasks of GLUE benchmark, you can sumbit the prediction files to the [website](https://gluebenchmark.com/).
