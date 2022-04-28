@@ -17,7 +17,7 @@ Authors:
 [Hong-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php),
 
 ## Overview
-![AdapterBias]](Adapter.png)
+![AdapterBias](Adapter.png)
 
 In this study, AdapterBias, a surprisingly simple yet effective adapter architecture, is proposed.
 AdapterBias adds a token-dependent shift to the hidden output of transformer layers to adapt to downstream tasks with only a vector and a linear layer.

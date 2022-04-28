@@ -6,16 +6,7 @@ def get_args():
     parser.add_argument('-s', '--seed', default=307, type=int)
     parser.add_argument('-g', '--GLUE_path', default='../GLUE', type=str)
     parser.add_argument('-o', '--output_path', default='./results', type=str)
-    '''
-    output_path就是你要跑的模型位置，資料夾名稱要有模型名稱
-    ex: adapter_alpha --> 'gdrive/My Drive/colab/307/alpha
-        adapter_xi --> 'gdrive/My Drive/colab/307/xi
-        adapter_bias_learn --> 'gdrive/My Drive/colab/307/vector
-        adapter_bias_fix --> 'gdrive/My Drive/colab/307/vector_fix
 
-        如果要讓bias的xi每層都一樣記得要讓task_specific = 1
-    '''
-    
     parser.add_argument('--share_alpha', default=0, type=int) #0 is for different xi in each layer, 1 is for same xi in each layer
     parser.add_argument('-m', '--model', default='bert-base', type=str)
     parser.add_argument('-t', '--task', default='cola', type=str)
