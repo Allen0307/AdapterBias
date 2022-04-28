@@ -15,7 +15,7 @@ def get_args():
 
         如果要讓bias的xi每層都一樣記得要讓task_specific = 1
     '''
-    parser.add_argument('-b', '--bottleneck', default=8, type=int)
+    
     parser.add_argument('--share_alpha', default=0, type=int) #0 is for different xi in each layer, 1 is for same xi in each layer
     parser.add_argument('-m', '--model', default='bert-base', type=str)
     parser.add_argument('-t', '--task', default='cola', type=str)
