@@ -1,7 +1,7 @@
 
 # AdapterBias: Parameter-efficient Token-dependent Representation Shift for Adapters in NLP Tasks
 
-![AdapterBias](![image](https://user-images.githubusercontent.com/39482819/165975690-84471b81-9ddf-49ed-83a0-e4e95404de37.png))
+![AdapterBias](![image](http://i.imgur.com/SRv0h6F.jpg))
 
 [![Version](https://img.shields.io/badge/Version-v0.1.0-blue?color=FF8000?color=009922)](https://img.shields.io/badge/Version-v0.1.0-blue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
