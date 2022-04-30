@@ -16,7 +16,7 @@ Authors:
 [Chin-Lun Fu*](https://www.linkedin.com/in/chin-lun-fu-201612219/), 
 [Zih-Ching Chen*](https://www.linkedin.com/in/zih-ching-chen-7158111b0/),
 [Yun-Ru Lee](https://www.facebook.com/profile.php?id=100002026928166),
-[Hong-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php)
+[Hung-yi Lee](https://speech.ee.ntu.edu.tw/~hylee/index.php)
 
 ## Overview
 ![AdapterBias](Adapter.png)
