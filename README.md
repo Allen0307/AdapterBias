@@ -1,4 +1,4 @@
-
+![AdapterBias](Adapterbias.jpg)
 # AdapterBias: Parameter-efficient Token-dependent Representation Shift for Adapters in NLP Tasks
 
 ![Imgur Image](http://i.imgur.com/SRv0h6F.jpg)
